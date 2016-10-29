@@ -1,0 +1,26 @@
+body {
+	background: url(../images/bg.jpg) no-repeat 50% 0 fixed;
+}
+h1{
+	color: #fff;
+	padding: 40px;
+	text-align: center;
+	font-family: serif;
+	font-size: 48px;
+	text-shadow: 1px 1px grey;
+}
+.thumbnail{	
+	color: white;
+	background-color: #52527a;
+	opacity: 0.9;
+	border: 1px solid white;
+	font-size: 17px;
+	text-align: center;
+	margin: 20px 40px;
+	padding: 10px;
+}
+strong{
+	font-weight: normal;
+	font-family: Arial;
+	padding: 25px;
+}

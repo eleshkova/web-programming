@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>World of warplanes players</title>
+      <link rel='stylesheet' href='styles/bootstrap.min.css' type='text/css' media='all'>
+      <link rel="stylesheet" href="styles/main.css">
+      <script src="js/jquery.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/handlebars.js"></script>
+    </head>
+    <body>
+      <div class="container">
+        <div class="row header">
+             <h1>World of warplanes players</h1>  
+        </div>
+        <div class="updates">
+        </div>
+ 			    <script id="template" type="text/x-handlebars-template">
+						{{#each data}}
+                <div class="col-xs-6 col-md-3 thumbnail">
+                  <strong>nickname:   </strong> {{nickname}}<br>
+                  <strong>rating:    </strong> {{global_rating}}<br>
+                  <strong>battles:    </strong> {{statistics.battles}}<br>
+                  <strong>assists:    </strong> {{statistics.assists}}<br>
+                  <strong>victories:    </strong> {{statistics.wins}}<br>   
+						  </div>
+						{{/each}}
+          </script>        
+      </div>
+    </body>
+</html> 
