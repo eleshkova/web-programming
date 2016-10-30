@@ -10,6 +10,7 @@ h1{
 	text-shadow: 1px 1px grey;
 }
 .thumbnail{	
+	font-family: Arial;
 	color: white;
 	background-color: #52527a;
 	opacity: 0.9;
@@ -18,9 +19,4 @@ h1{
 	text-align: center;
 	margin: 20px 40px;
 	padding: 10px;
-}
-strong{
-	font-weight: normal;
-	font-family: Arial;
-	padding: 25px;
 }

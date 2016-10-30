@@ -19,11 +19,14 @@
  			    <script id="template" type="text/x-handlebars-template">
 						{{#each data}}
                 <div class="col-xs-6 col-md-3 thumbnail">
-                  <strong>nickname:   </strong> {{nickname}}<br>
-                  <strong>rating:    </strong> {{global_rating}}<br>
-                  <strong>battles:    </strong> {{statistics.battles}}<br>
-                  <strong>assists:    </strong> {{statistics.assists}}<br>
-                  <strong>victories:    </strong> {{statistics.wins}}<br>   
+                  <p>nickname: {{nickname}}<br>
+                  rating: {{global_rating}}<br>
+                  battles: {{statistics.battles}}<br>
+                  assists: {{statistics.assists}}<br>
+                  victories: {{statistics.wins}}<br> 
+                  draws: {{statistics.draws}}<br>  
+                  losses: {{statistics.losses}}<br>
+                  </p>
 						  </div>
 						{{/each}}
           </script>        

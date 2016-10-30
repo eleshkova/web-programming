@@ -1,7 +1,7 @@
 "use strict";
 
 let information = function(){
-fetch('https://api.worldofwarplanes.ru/wowp/account/info/?application_id=1fca5a750d8721c0eaef7e767ba67d62&account_id=588,555,999,667, 670, 1005')  
+fetch('https://api.worldofwarplanes.ru/wowp/account/info/?application_id=1fca5a750d8721c0eaef7e767ba67d62&account_id=344, 445,588,555,999,667, 670, 1005, 778')  
   .then(  
     function(response) {  
       if (response.status !== 200) {  
